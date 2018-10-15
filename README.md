@@ -6,3 +6,10 @@ Create output to be injected via `cfile`:
 ```
 make error_output.txt
 ```
+
+## Challenge solution
+Setting Vim's errorformat option to this value will enable parsing the output
+from `query_match.py`:
+```
+:set errorformat=%f\:%l\:%c
+```
